@@ -1,0 +1,1522 @@
+{
+  "device": {
+    "idVendor": 11123,
+    "idProduct": 59,
+    "idVendorHex": "0x2B73",
+    "idProductHex": "0x003B"
+  },
+  "formato": {
+    "bmRequestType": 64,
+    "bRequest": 3,
+    "wLength": 0,
+    "nota": "transferencia de controle sem dados; setup packet = 40 03 wValLo wValHi wIdxLo wIdxHi 00 00"
+  },
+  "funcoes": {
+    "0xC002": {
+      "funcao": "MixerOutput (roteamento DDJ OUTPUT)",
+      "wIndex": 49154,
+      "bRequest": 3,
+      "confirmado": true,
+      "opcoes": [
+        {
+          "rotulo": "USB1/2 = MIX (REC OUT with MIC)",
+          "wValue": 266,
+          "wValueHex": "0x010A",
+          "setup_packet": "40 03 0A 01 02 C0 00 00"
+        },
+        {
+          "rotulo": "USB1/2 = MIX (REC OUT without MIC)",
+          "wValue": 277,
+          "wValueHex": "0x0115",
+          "setup_packet": "40 03 15 01 02 C0 00 00"
+        },
+        {
+          "rotulo": "USB1/2 = Post CH1 Fader",
+          "wValue": 273,
+          "wValueHex": "0x0111",
+          "setup_packet": "40 03 11 01 02 C0 00 00"
+        },
+        {
+          "rotulo": "USB1/2 = CROSSFADER A",
+          "wValue": 263,
+          "wValueHex": "0x0107",
+          "setup_packet": "40 03 07 01 02 C0 00 00"
+        },
+        {
+          "rotulo": "USB1/2 = CROSSFADER B",
+          "wValue": 264,
+          "wValueHex": "0x0108",
+          "setup_packet": "40 03 08 01 02 C0 00 00"
+        },
+        {
+          "rotulo": "USB1/2 = MIC",
+          "wValue": 265,
+          "wValueHex": "0x0109",
+          "setup_packet": "40 03 09 01 02 C0 00 00"
+        },
+        {
+          "rotulo": "USB1/2 = AUX",
+          "wValue": 269,
+          "wValueHex": "0x010D",
+          "setup_packet": "40 03 0D 01 02 C0 00 00"
+        },
+        {
+          "rotulo": "USB1/2 = Control Tone",
+          "wValue": 259,
+          "wValueHex": "0x0103",
+          "setup_packet": "40 03 03 01 02 C0 00 00"
+        },
+        {
+          "rotulo": "USB3/4 = MIX (REC OUT with MIC)",
+          "wValue": 522,
+          "wValueHex": "0x020A",
+          "setup_packet": "40 03 0A 02 02 C0 00 00"
+        },
+        {
+          "rotulo": "USB3/4 = MIX (REC OUT without MIC)",
+          "wValue": 533,
+          "wValueHex": "0x0215",
+          "setup_packet": "40 03 15 02 02 C0 00 00"
+        },
+        {
+          "rotulo": "USB3/4 = Post CH2 Fader",
+          "wValue": 530,
+          "wValueHex": "0x0212",
+          "setup_packet": "40 03 12 02 02 C0 00 00"
+        },
+        {
+          "rotulo": "USB3/4 = CROSSFADER A",
+          "wValue": 519,
+          "wValueHex": "0x0207",
+          "setup_packet": "40 03 07 02 02 C0 00 00"
+        },
+        {
+          "rotulo": "USB3/4 = CROSSFADER B",
+          "wValue": 520,
+          "wValueHex": "0x0208",
+          "setup_packet": "40 03 08 02 02 C0 00 00"
+        },
+        {
+          "rotulo": "USB3/4 = MIC",
+          "wValue": 521,
+          "wValueHex": "0x0209",
+          "setup_packet": "40 03 09 02 02 C0 00 00"
+        },
+        {
+          "rotulo": "USB3/4 = AUX",
+          "wValue": 525,
+          "wValueHex": "0x020D",
+          "setup_packet": "40 03 0D 02 02 C0 00 00"
+        },
+        {
+          "rotulo": "USB3/4 = Control Tone",
+          "wValue": 515,
+          "wValueHex": "0x0203",
+          "setup_packet": "40 03 03 02 02 C0 00 00"
+        },
+        {
+          "rotulo": "USB5/6 = MIX (REC OUT without MIC)",
+          "wValue": 789,
+          "wValueHex": "0x0315",
+          "setup_packet": "40 03 15 03 02 C0 00 00"
+        },
+        {
+          "rotulo": "USB5/6 = CROSSFADER A",
+          "wValue": 775,
+          "wValueHex": "0x0307",
+          "setup_packet": "40 03 07 03 02 C0 00 00"
+        },
+        {
+          "rotulo": "USB5/6 = CROSSFADER B",
+          "wValue": 776,
+          "wValueHex": "0x0308",
+          "setup_packet": "40 03 08 03 02 C0 00 00"
+        },
+        {
+          "rotulo": "USB5/6 = MIC",
+          "wValue": 777,
+          "wValueHex": "0x0309",
+          "setup_packet": "40 03 09 03 02 C0 00 00"
+        },
+        {
+          "rotulo": "USB5/6 = AUX",
+          "wValue": 781,
+          "wValueHex": "0x030D",
+          "setup_packet": "40 03 0D 03 02 C0 00 00"
+        },
+        {
+          "rotulo": "USB5/6 = Post CH1 Fader",
+          "wValue": 785,
+          "wValueHex": "0x0311",
+          "setup_packet": "40 03 11 03 02 C0 00 00"
+        },
+        {
+          "rotulo": "USB5/6 = Post CH2 Fader",
+          "wValue": 786,
+          "wValueHex": "0x0312",
+          "setup_packet": "40 03 12 03 02 C0 00 00"
+        },
+        {
+          "rotulo": "USB5/6 = MIX (REC OUT with MIC)",
+          "wValue": 778,
+          "wValueHex": "0x030A",
+          "setup_packet": "40 03 0A 03 02 C0 00 00"
+        }
+      ]
+    },
+    "0xC003": {
+      "funcao": "USB Output Level (MaxLevel)",
+      "wIndex": 49155,
+      "bRequest": 3,
+      "confirmado": true,
+      "opcoes": [
+        {
+          "rotulo": "-10 dB",
+          "wValue": 512,
+          "wValueHex": "0x0200",
+          "setup_packet": "40 03 00 02 03 C0 00 00"
+        },
+        {
+          "rotulo": "-15 dB",
+          "wValue": 256,
+          "wValueHex": "0x0100",
+          "setup_packet": "40 03 00 01 03 C0 00 00"
+        },
+        {
+          "rotulo": "-19 dB",
+          "wValue": 0,
+          "wValueHex": "0x0000",
+          "setup_packet": "40 03 00 00 03 C0 00 00"
+        },
+        {
+          "rotulo": "-5 dB",
+          "wValue": 768,
+          "wValueHex": "0x0300",
+          "setup_packet": "40 03 00 03 03 C0 00 00"
+        }
+      ]
+    },
+    "0xC212": {
+      "funcao": "4-Beat Loop Button Type",
+      "wIndex": 49682,
+      "bRequest": 3,
+      "confirmado": false,
+      "opcoes": [
+        {
+          "rotulo": "tipo B",
+          "wValue": 256,
+          "wValueHex": "0x0100",
+          "setup_packet": "40 03 00 01 12 C2 00 00"
+        },
+        {
+          "rotulo": "tipo A",
+          "wValue": 0,
+          "wValueHex": "0x0000",
+          "setup_packet": "40 03 00 00 12 C2 00 00"
+        }
+      ]
+    },
+    "0xC223": {
+      "funcao": "4-Beat Loop Button Length",
+      "wIndex": 49699,
+      "bRequest": 3,
+      "confirmado": false,
+      "opcoes": [
+        {
+          "rotulo": "opcao 7",
+          "wValue": 1792,
+          "wValueHex": "0x0700",
+          "setup_packet": "40 03 00 07 23 C2 00 00"
+        },
+        {
+          "rotulo": "opcao 8",
+          "wValue": 2048,
+          "wValueHex": "0x0800",
+          "setup_packet": "40 03 00 08 23 C2 00 00"
+        },
+        {
+          "rotulo": "opcao 14",
+          "wValue": 3584,
+          "wValueHex": "0x0E00",
+          "setup_packet": "40 03 00 0E 23 C2 00 00"
+        },
+        {
+          "rotulo": "opcao 13",
+          "wValue": 3328,
+          "wValueHex": "0x0D00",
+          "setup_packet": "40 03 00 0D 23 C2 00 00"
+        },
+        {
+          "rotulo": "opcao 12",
+          "wValue": 3072,
+          "wValueHex": "0x0C00",
+          "setup_packet": "40 03 00 0C 23 C2 00 00"
+        },
+        {
+          "rotulo": "opcao 11",
+          "wValue": 2816,
+          "wValueHex": "0x0B00",
+          "setup_packet": "40 03 00 0B 23 C2 00 00"
+        },
+        {
+          "rotulo": "opcao 10",
+          "wValue": 2560,
+          "wValueHex": "0x0A00",
+          "setup_packet": "40 03 00 0A 23 C2 00 00"
+        }
+      ]
+    },
+    "0xC214": {
+      "funcao": "PAD Mode",
+      "wIndex": 49684,
+      "bRequest": 3,
+      "confirmado": false,
+      "opcoes": [
+        {
+          "rotulo": "modo B",
+          "wValue": 256,
+          "wValueHex": "0x0100",
+          "setup_packet": "40 03 00 01 14 C2 00 00"
+        },
+        {
+          "rotulo": "modo A",
+          "wValue": 0,
+          "wValueHex": "0x0000",
+          "setup_packet": "40 03 00 00 14 C2 00 00"
+        }
+      ]
+    },
+    "0xC211": {
+      "funcao": "Crossfader Cut Lag",
+      "wIndex": 49681,
+      "bRequest": 3,
+      "confirmado": false,
+      "opcoes": [
+        {
+          "rotulo": "posicao 5",
+          "wValue": 1280,
+          "wValueHex": "0x0500",
+          "setup_packet": "40 03 00 05 11 C2 00 00"
+        },
+        {
+          "rotulo": "posicao 1",
+          "wValue": 256,
+          "wValueHex": "0x0100",
+          "setup_packet": "40 03 00 01 11 C2 00 00"
+        },
+        {
+          "rotulo": "posicao 2",
+          "wValue": 512,
+          "wValueHex": "0x0200",
+          "setup_packet": "40 03 00 02 11 C2 00 00"
+        },
+        {
+          "rotulo": "posicao 3",
+          "wValue": 768,
+          "wValueHex": "0x0300",
+          "setup_packet": "40 03 00 03 11 C2 00 00"
+        },
+        {
+          "rotulo": "posicao 4",
+          "wValue": 1024,
+          "wValueHex": "0x0400",
+          "setup_packet": "40 03 00 04 11 C2 00 00"
+        },
+        {
+          "rotulo": "posicao 6",
+          "wValue": 1536,
+          "wValueHex": "0x0600",
+          "setup_packet": "40 03 00 06 11 C2 00 00"
+        },
+        {
+          "rotulo": "posicao 7",
+          "wValue": 1792,
+          "wValueHex": "0x0700",
+          "setup_packet": "40 03 00 07 11 C2 00 00"
+        },
+        {
+          "rotulo": "posicao 8",
+          "wValue": 2048,
+          "wValueHex": "0x0800",
+          "setup_packet": "40 03 00 08 11 C2 00 00"
+        },
+        {
+          "rotulo": "posicao 9",
+          "wValue": 2304,
+          "wValueHex": "0x0900",
+          "setup_packet": "40 03 00 09 11 C2 00 00"
+        },
+        {
+          "rotulo": "posicao 10",
+          "wValue": 2560,
+          "wValueHex": "0x0A00",
+          "setup_packet": "40 03 00 0A 11 C2 00 00"
+        }
+      ]
+    },
+    "0xC215": {
+      "funcao": "Crossfader Fade (curva)",
+      "wIndex": 49685,
+      "bRequest": 3,
+      "confirmado": true,
+      "opcoes": [
+        {
+          "rotulo": "LARGE",
+          "wValue": 768,
+          "wValueHex": "0x0300",
+          "setup_packet": "40 03 00 03 15 C2 00 00"
+        },
+        {
+          "rotulo": "SHARP",
+          "wValue": 0,
+          "wValueHex": "0x0000",
+          "setup_packet": "40 03 00 00 15 C2 00 00"
+        },
+        {
+          "rotulo": "NONE",
+          "wValue": 256,
+          "wValueHex": "0x0100",
+          "setup_packet": "40 03 00 01 15 C2 00 00"
+        },
+        {
+          "rotulo": "SMALL",
+          "wValue": 512,
+          "wValueHex": "0x0200",
+          "setup_packet": "40 03 00 02 15 C2 00 00"
+        }
+      ]
+    },
+    "0xC226": {
+      "funcao": "Time Mode",
+      "wIndex": 49702,
+      "bRequest": 3,
+      "confirmado": false,
+      "opcoes": [
+        {
+          "rotulo": "Elapsed",
+          "wValue": 0,
+          "wValueHex": "0x0000",
+          "setup_packet": "40 03 00 00 26 C2 00 00"
+        },
+        {
+          "rotulo": "Remain",
+          "wValue": 256,
+          "wValueHex": "0x0100",
+          "setup_packet": "40 03 00 01 26 C2 00 00"
+        }
+      ]
+    },
+    "0xC227": {
+      "funcao": "Hot Cue Countdown",
+      "wIndex": 49703,
+      "bRequest": 3,
+      "confirmado": false,
+      "opcoes": [
+        {
+          "rotulo": "Off",
+          "wValue": 0,
+          "wValueHex": "0x0000",
+          "setup_packet": "40 03 00 00 27 C2 00 00"
+        },
+        {
+          "rotulo": "On",
+          "wValue": 256,
+          "wValueHex": "0x0100",
+          "setup_packet": "40 03 00 01 27 C2 00 00"
+        }
+      ]
+    },
+    "0xC22D": {
+      "funcao": "RPM Button Mode",
+      "wIndex": 49709,
+      "bRequest": 3,
+      "confirmado": false,
+      "opcoes": [
+        {
+          "rotulo": "Long Press",
+          "wValue": 256,
+          "wValueHex": "0x0100",
+          "setup_packet": "40 03 00 01 2D C2 00 00"
+        },
+        {
+          "rotulo": "Instant",
+          "wValue": 0,
+          "wValueHex": "0x0000",
+          "setup_packet": "40 03 00 00 2D C2 00 00"
+        }
+      ]
+    },
+    "0xC22E": {
+      "funcao": "Slow Speed Stabilizer",
+      "wIndex": 49710,
+      "bRequest": 3,
+      "confirmado": false,
+      "opcoes": [
+        {
+          "rotulo": "On",
+          "wValue": 256,
+          "wValueHex": "0x0100",
+          "setup_packet": "40 03 00 01 2E C2 00 00"
+        },
+        {
+          "rotulo": "Off",
+          "wValue": 0,
+          "wValueHex": "0x0000",
+          "setup_packet": "40 03 00 00 2E C2 00 00"
+        }
+      ]
+    }
+  },
+  "comandos_capturados": [
+    {
+      "pkt": 433,
+      "funcao": "MixerOutput (roteamento DDJ OUTPUT)",
+      "rotulo": "USB1/2 = MIX (REC OUT with MIC)",
+      "confirmado": true,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 266,
+      "wValueHex": "0x010A",
+      "wIndex": 49154,
+      "wIndexHex": "0xC002",
+      "wLength": 0,
+      "setup_packet": "40 03 0A 01 02 C0 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x010A, 0xC002, None)"
+    },
+    {
+      "pkt": 677,
+      "funcao": "MixerOutput (roteamento DDJ OUTPUT)",
+      "rotulo": "USB1/2 = MIX (REC OUT without MIC)",
+      "confirmado": true,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 277,
+      "wValueHex": "0x0115",
+      "wIndex": 49154,
+      "wIndexHex": "0xC002",
+      "wLength": 0,
+      "setup_packet": "40 03 15 01 02 C0 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0115, 0xC002, None)"
+    },
+    {
+      "pkt": 867,
+      "funcao": "MixerOutput (roteamento DDJ OUTPUT)",
+      "rotulo": "USB1/2 = Post CH1 Fader",
+      "confirmado": true,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 273,
+      "wValueHex": "0x0111",
+      "wIndex": 49154,
+      "wIndexHex": "0xC002",
+      "wLength": 0,
+      "setup_packet": "40 03 11 01 02 C0 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0111, 0xC002, None)"
+    },
+    {
+      "pkt": 997,
+      "funcao": "MixerOutput (roteamento DDJ OUTPUT)",
+      "rotulo": "USB1/2 = CROSSFADER A",
+      "confirmado": true,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 263,
+      "wValueHex": "0x0107",
+      "wIndex": 49154,
+      "wIndexHex": "0xC002",
+      "wLength": 0,
+      "setup_packet": "40 03 07 01 02 C0 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0107, 0xC002, None)"
+    },
+    {
+      "pkt": 1267,
+      "funcao": "MixerOutput (roteamento DDJ OUTPUT)",
+      "rotulo": "USB1/2 = CROSSFADER B",
+      "confirmado": true,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 264,
+      "wValueHex": "0x0108",
+      "wIndex": 49154,
+      "wIndexHex": "0xC002",
+      "wLength": 0,
+      "setup_packet": "40 03 08 01 02 C0 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0108, 0xC002, None)"
+    },
+    {
+      "pkt": 1611,
+      "funcao": "MixerOutput (roteamento DDJ OUTPUT)",
+      "rotulo": "USB1/2 = MIC",
+      "confirmado": true,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 265,
+      "wValueHex": "0x0109",
+      "wIndex": 49154,
+      "wIndexHex": "0xC002",
+      "wLength": 0,
+      "setup_packet": "40 03 09 01 02 C0 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0109, 0xC002, None)"
+    },
+    {
+      "pkt": 1755,
+      "funcao": "MixerOutput (roteamento DDJ OUTPUT)",
+      "rotulo": "USB1/2 = AUX",
+      "confirmado": true,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 269,
+      "wValueHex": "0x010D",
+      "wIndex": 49154,
+      "wIndexHex": "0xC002",
+      "wLength": 0,
+      "setup_packet": "40 03 0D 01 02 C0 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x010D, 0xC002, None)"
+    },
+    {
+      "pkt": 1919,
+      "funcao": "MixerOutput (roteamento DDJ OUTPUT)",
+      "rotulo": "USB1/2 = Control Tone",
+      "confirmado": true,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 259,
+      "wValueHex": "0x0103",
+      "wIndex": 49154,
+      "wIndexHex": "0xC002",
+      "wLength": 0,
+      "setup_packet": "40 03 03 01 02 C0 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0103, 0xC002, None)"
+    },
+    {
+      "pkt": 2091,
+      "funcao": "MixerOutput (roteamento DDJ OUTPUT)",
+      "rotulo": "USB3/4 = MIX (REC OUT with MIC)",
+      "confirmado": true,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 522,
+      "wValueHex": "0x020A",
+      "wIndex": 49154,
+      "wIndexHex": "0xC002",
+      "wLength": 0,
+      "setup_packet": "40 03 0A 02 02 C0 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x020A, 0xC002, None)"
+    },
+    {
+      "pkt": 2307,
+      "funcao": "MixerOutput (roteamento DDJ OUTPUT)",
+      "rotulo": "USB3/4 = MIX (REC OUT without MIC)",
+      "confirmado": true,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 533,
+      "wValueHex": "0x0215",
+      "wIndex": 49154,
+      "wIndexHex": "0xC002",
+      "wLength": 0,
+      "setup_packet": "40 03 15 02 02 C0 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0215, 0xC002, None)"
+    },
+    {
+      "pkt": 2491,
+      "funcao": "MixerOutput (roteamento DDJ OUTPUT)",
+      "rotulo": "USB3/4 = Post CH2 Fader",
+      "confirmado": true,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 530,
+      "wValueHex": "0x0212",
+      "wIndex": 49154,
+      "wIndexHex": "0xC002",
+      "wLength": 0,
+      "setup_packet": "40 03 12 02 02 C0 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0212, 0xC002, None)"
+    },
+    {
+      "pkt": 2687,
+      "funcao": "MixerOutput (roteamento DDJ OUTPUT)",
+      "rotulo": "USB3/4 = CROSSFADER A",
+      "confirmado": true,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 519,
+      "wValueHex": "0x0207",
+      "wIndex": 49154,
+      "wIndexHex": "0xC002",
+      "wLength": 0,
+      "setup_packet": "40 03 07 02 02 C0 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0207, 0xC002, None)"
+    },
+    {
+      "pkt": 2825,
+      "funcao": "MixerOutput (roteamento DDJ OUTPUT)",
+      "rotulo": "USB3/4 = CROSSFADER B",
+      "confirmado": true,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 520,
+      "wValueHex": "0x0208",
+      "wIndex": 49154,
+      "wIndexHex": "0xC002",
+      "wLength": 0,
+      "setup_packet": "40 03 08 02 02 C0 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0208, 0xC002, None)"
+    },
+    {
+      "pkt": 2981,
+      "funcao": "MixerOutput (roteamento DDJ OUTPUT)",
+      "rotulo": "USB3/4 = MIC",
+      "confirmado": true,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 521,
+      "wValueHex": "0x0209",
+      "wIndex": 49154,
+      "wIndexHex": "0xC002",
+      "wLength": 0,
+      "setup_packet": "40 03 09 02 02 C0 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0209, 0xC002, None)"
+    },
+    {
+      "pkt": 3171,
+      "funcao": "MixerOutput (roteamento DDJ OUTPUT)",
+      "rotulo": "USB3/4 = AUX",
+      "confirmado": true,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 525,
+      "wValueHex": "0x020D",
+      "wIndex": 49154,
+      "wIndexHex": "0xC002",
+      "wLength": 0,
+      "setup_packet": "40 03 0D 02 02 C0 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x020D, 0xC002, None)"
+    },
+    {
+      "pkt": 3323,
+      "funcao": "MixerOutput (roteamento DDJ OUTPUT)",
+      "rotulo": "USB3/4 = Control Tone",
+      "confirmado": true,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 515,
+      "wValueHex": "0x0203",
+      "wIndex": 49154,
+      "wIndexHex": "0xC002",
+      "wLength": 0,
+      "setup_packet": "40 03 03 02 02 C0 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0203, 0xC002, None)"
+    },
+    {
+      "pkt": 3473,
+      "funcao": "MixerOutput (roteamento DDJ OUTPUT)",
+      "rotulo": "USB5/6 = MIX (REC OUT without MIC)",
+      "confirmado": true,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 789,
+      "wValueHex": "0x0315",
+      "wIndex": 49154,
+      "wIndexHex": "0xC002",
+      "wLength": 0,
+      "setup_packet": "40 03 15 03 02 C0 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0315, 0xC002, None)"
+    },
+    {
+      "pkt": 3815,
+      "funcao": "MixerOutput (roteamento DDJ OUTPUT)",
+      "rotulo": "USB5/6 = CROSSFADER A",
+      "confirmado": true,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 775,
+      "wValueHex": "0x0307",
+      "wIndex": 49154,
+      "wIndexHex": "0xC002",
+      "wLength": 0,
+      "setup_packet": "40 03 07 03 02 C0 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0307, 0xC002, None)"
+    },
+    {
+      "pkt": 4069,
+      "funcao": "MixerOutput (roteamento DDJ OUTPUT)",
+      "rotulo": "USB5/6 = CROSSFADER B",
+      "confirmado": true,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 776,
+      "wValueHex": "0x0308",
+      "wIndex": 49154,
+      "wIndexHex": "0xC002",
+      "wLength": 0,
+      "setup_packet": "40 03 08 03 02 C0 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0308, 0xC002, None)"
+    },
+    {
+      "pkt": 4529,
+      "funcao": "MixerOutput (roteamento DDJ OUTPUT)",
+      "rotulo": "USB5/6 = MIC",
+      "confirmado": true,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 777,
+      "wValueHex": "0x0309",
+      "wIndex": 49154,
+      "wIndexHex": "0xC002",
+      "wLength": 0,
+      "setup_packet": "40 03 09 03 02 C0 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0309, 0xC002, None)"
+    },
+    {
+      "pkt": 4705,
+      "funcao": "MixerOutput (roteamento DDJ OUTPUT)",
+      "rotulo": "USB5/6 = AUX",
+      "confirmado": true,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 781,
+      "wValueHex": "0x030D",
+      "wIndex": 49154,
+      "wIndexHex": "0xC002",
+      "wLength": 0,
+      "setup_packet": "40 03 0D 03 02 C0 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x030D, 0xC002, None)"
+    },
+    {
+      "pkt": 4861,
+      "funcao": "MixerOutput (roteamento DDJ OUTPUT)",
+      "rotulo": "USB5/6 = Post CH1 Fader",
+      "confirmado": true,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 785,
+      "wValueHex": "0x0311",
+      "wIndex": 49154,
+      "wIndexHex": "0xC002",
+      "wLength": 0,
+      "setup_packet": "40 03 11 03 02 C0 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0311, 0xC002, None)"
+    },
+    {
+      "pkt": 5001,
+      "funcao": "MixerOutput (roteamento DDJ OUTPUT)",
+      "rotulo": "USB5/6 = Post CH2 Fader",
+      "confirmado": true,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 786,
+      "wValueHex": "0x0312",
+      "wIndex": 49154,
+      "wIndexHex": "0xC002",
+      "wLength": 0,
+      "setup_packet": "40 03 12 03 02 C0 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0312, 0xC002, None)"
+    },
+    {
+      "pkt": 5157,
+      "funcao": "MixerOutput (roteamento DDJ OUTPUT)",
+      "rotulo": "USB5/6 = MIX (REC OUT with MIC)",
+      "confirmado": true,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 778,
+      "wValueHex": "0x030A",
+      "wIndex": 49154,
+      "wIndexHex": "0xC002",
+      "wLength": 0,
+      "setup_packet": "40 03 0A 03 02 C0 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x030A, 0xC002, None)"
+    },
+    {
+      "pkt": 5877,
+      "funcao": "USB Output Level (MaxLevel)",
+      "rotulo": "-10 dB",
+      "confirmado": true,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 512,
+      "wValueHex": "0x0200",
+      "wIndex": 49155,
+      "wIndexHex": "0xC003",
+      "wLength": 0,
+      "setup_packet": "40 03 00 02 03 C0 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0200, 0xC003, None)"
+    },
+    {
+      "pkt": 6025,
+      "funcao": "USB Output Level (MaxLevel)",
+      "rotulo": "-15 dB",
+      "confirmado": true,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 256,
+      "wValueHex": "0x0100",
+      "wIndex": 49155,
+      "wIndexHex": "0xC003",
+      "wLength": 0,
+      "setup_packet": "40 03 00 01 03 C0 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0100, 0xC003, None)"
+    },
+    {
+      "pkt": 6175,
+      "funcao": "USB Output Level (MaxLevel)",
+      "rotulo": "-19 dB",
+      "confirmado": true,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 0,
+      "wValueHex": "0x0000",
+      "wIndex": 49155,
+      "wIndexHex": "0xC003",
+      "wLength": 0,
+      "setup_packet": "40 03 00 00 03 C0 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0000, 0xC003, None)"
+    },
+    {
+      "pkt": 6317,
+      "funcao": "USB Output Level (MaxLevel)",
+      "rotulo": "-5 dB",
+      "confirmado": true,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 768,
+      "wValueHex": "0x0300",
+      "wIndex": 49155,
+      "wIndexHex": "0xC003",
+      "wLength": 0,
+      "setup_packet": "40 03 00 03 03 C0 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0300, 0xC003, None)"
+    },
+    {
+      "pkt": 6485,
+      "funcao": "4-Beat Loop Button Type",
+      "rotulo": "tipo B",
+      "confirmado": false,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 256,
+      "wValueHex": "0x0100",
+      "wIndex": 49682,
+      "wIndexHex": "0xC212",
+      "wLength": 0,
+      "setup_packet": "40 03 00 01 12 C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0100, 0xC212, None)"
+    },
+    {
+      "pkt": 6501,
+      "funcao": "4-Beat Loop Button Length",
+      "rotulo": "opcao 7",
+      "confirmado": false,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 1792,
+      "wValueHex": "0x0700",
+      "wIndex": 49699,
+      "wIndexHex": "0xC223",
+      "wLength": 0,
+      "setup_packet": "40 03 00 07 23 C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0700, 0xC223, None)"
+    },
+    {
+      "pkt": 6523,
+      "funcao": "4-Beat Loop Button Length",
+      "rotulo": "opcao 7",
+      "confirmado": false,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 1792,
+      "wValueHex": "0x0700",
+      "wIndex": 49699,
+      "wIndexHex": "0xC223",
+      "wLength": 0,
+      "setup_packet": "40 03 00 07 23 C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0700, 0xC223, None)"
+    },
+    {
+      "pkt": 6545,
+      "funcao": "4-Beat Loop Button Length",
+      "rotulo": "opcao 7",
+      "confirmado": false,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 1792,
+      "wValueHex": "0x0700",
+      "wIndex": 49699,
+      "wIndexHex": "0xC223",
+      "wLength": 0,
+      "setup_packet": "40 03 00 07 23 C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0700, 0xC223, None)"
+    },
+    {
+      "pkt": 6559,
+      "funcao": "4-Beat Loop Button Length",
+      "rotulo": "opcao 8",
+      "confirmado": false,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 2048,
+      "wValueHex": "0x0800",
+      "wIndex": 49699,
+      "wIndexHex": "0xC223",
+      "wLength": 0,
+      "setup_packet": "40 03 00 08 23 C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0800, 0xC223, None)"
+    },
+    {
+      "pkt": 6645,
+      "funcao": "4-Beat Loop Button Length",
+      "rotulo": "opcao 14",
+      "confirmado": false,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 3584,
+      "wValueHex": "0x0E00",
+      "wIndex": 49699,
+      "wIndexHex": "0xC223",
+      "wLength": 0,
+      "setup_packet": "40 03 00 0E 23 C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0E00, 0xC223, None)"
+    },
+    {
+      "pkt": 6677,
+      "funcao": "4-Beat Loop Button Length",
+      "rotulo": "opcao 13",
+      "confirmado": false,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 3328,
+      "wValueHex": "0x0D00",
+      "wIndex": 49699,
+      "wIndexHex": "0xC223",
+      "wLength": 0,
+      "setup_packet": "40 03 00 0D 23 C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0D00, 0xC223, None)"
+    },
+    {
+      "pkt": 6689,
+      "funcao": "4-Beat Loop Button Length",
+      "rotulo": "opcao 12",
+      "confirmado": false,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 3072,
+      "wValueHex": "0x0C00",
+      "wIndex": 49699,
+      "wIndexHex": "0xC223",
+      "wLength": 0,
+      "setup_packet": "40 03 00 0C 23 C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0C00, 0xC223, None)"
+    },
+    {
+      "pkt": 6733,
+      "funcao": "4-Beat Loop Button Length",
+      "rotulo": "opcao 11",
+      "confirmado": false,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 2816,
+      "wValueHex": "0x0B00",
+      "wIndex": 49699,
+      "wIndexHex": "0xC223",
+      "wLength": 0,
+      "setup_packet": "40 03 00 0B 23 C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0B00, 0xC223, None)"
+    },
+    {
+      "pkt": 6741,
+      "funcao": "4-Beat Loop Button Length",
+      "rotulo": "opcao 10",
+      "confirmado": false,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 2560,
+      "wValueHex": "0x0A00",
+      "wIndex": 49699,
+      "wIndexHex": "0xC223",
+      "wLength": 0,
+      "setup_packet": "40 03 00 0A 23 C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0A00, 0xC223, None)"
+    },
+    {
+      "pkt": 6751,
+      "funcao": "4-Beat Loop Button Length",
+      "rotulo": "opcao 7",
+      "confirmado": false,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 1792,
+      "wValueHex": "0x0700",
+      "wIndex": 49699,
+      "wIndexHex": "0xC223",
+      "wLength": 0,
+      "setup_packet": "40 03 00 07 23 C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0700, 0xC223, None)"
+    },
+    {
+      "pkt": 6769,
+      "funcao": "4-Beat Loop Button Length",
+      "rotulo": "opcao 7",
+      "confirmado": false,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 1792,
+      "wValueHex": "0x0700",
+      "wIndex": 49699,
+      "wIndexHex": "0xC223",
+      "wLength": 0,
+      "setup_packet": "40 03 00 07 23 C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0700, 0xC223, None)"
+    },
+    {
+      "pkt": 6791,
+      "funcao": "4-Beat Loop Button Length",
+      "rotulo": "opcao 7",
+      "confirmado": false,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 1792,
+      "wValueHex": "0x0700",
+      "wIndex": 49699,
+      "wIndexHex": "0xC223",
+      "wLength": 0,
+      "setup_packet": "40 03 00 07 23 C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0700, 0xC223, None)"
+    },
+    {
+      "pkt": 6821,
+      "funcao": "4-Beat Loop Button Length",
+      "rotulo": "opcao 8",
+      "confirmado": false,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 2048,
+      "wValueHex": "0x0800",
+      "wIndex": 49699,
+      "wIndexHex": "0xC223",
+      "wLength": 0,
+      "setup_packet": "40 03 00 08 23 C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0800, 0xC223, None)"
+    },
+    {
+      "pkt": 6831,
+      "funcao": "4-Beat Loop Button Type",
+      "rotulo": "tipo A",
+      "confirmado": false,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 0,
+      "wValueHex": "0x0000",
+      "wIndex": 49682,
+      "wIndexHex": "0xC212",
+      "wLength": 0,
+      "setup_packet": "40 03 00 00 12 C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0000, 0xC212, None)"
+    },
+    {
+      "pkt": 6843,
+      "funcao": "PAD Mode",
+      "rotulo": "modo B",
+      "confirmado": false,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 256,
+      "wValueHex": "0x0100",
+      "wIndex": 49684,
+      "wIndexHex": "0xC214",
+      "wLength": 0,
+      "setup_packet": "40 03 00 01 14 C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0100, 0xC214, None)"
+    },
+    {
+      "pkt": 6851,
+      "funcao": "PAD Mode",
+      "rotulo": "modo A",
+      "confirmado": false,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 0,
+      "wValueHex": "0x0000",
+      "wIndex": 49684,
+      "wIndexHex": "0xC214",
+      "wLength": 0,
+      "setup_packet": "40 03 00 00 14 C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0000, 0xC214, None)"
+    },
+    {
+      "pkt": 6877,
+      "funcao": "Crossfader Cut Lag",
+      "rotulo": "posicao 5",
+      "confirmado": false,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 1280,
+      "wValueHex": "0x0500",
+      "wIndex": 49681,
+      "wIndexHex": "0xC211",
+      "wLength": 0,
+      "setup_packet": "40 03 00 05 11 C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0500, 0xC211, None)"
+    },
+    {
+      "pkt": 6903,
+      "funcao": "Crossfader Cut Lag",
+      "rotulo": "posicao 1",
+      "confirmado": false,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 256,
+      "wValueHex": "0x0100",
+      "wIndex": 49681,
+      "wIndexHex": "0xC211",
+      "wLength": 0,
+      "setup_packet": "40 03 00 01 11 C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0100, 0xC211, None)"
+    },
+    {
+      "pkt": 6921,
+      "funcao": "Crossfader Cut Lag",
+      "rotulo": "posicao 2",
+      "confirmado": false,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 512,
+      "wValueHex": "0x0200",
+      "wIndex": 49681,
+      "wIndexHex": "0xC211",
+      "wLength": 0,
+      "setup_packet": "40 03 00 02 11 C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0200, 0xC211, None)"
+    },
+    {
+      "pkt": 6949,
+      "funcao": "Crossfader Cut Lag",
+      "rotulo": "posicao 3",
+      "confirmado": false,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 768,
+      "wValueHex": "0x0300",
+      "wIndex": 49681,
+      "wIndexHex": "0xC211",
+      "wLength": 0,
+      "setup_packet": "40 03 00 03 11 C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0300, 0xC211, None)"
+    },
+    {
+      "pkt": 6967,
+      "funcao": "Crossfader Cut Lag",
+      "rotulo": "posicao 4",
+      "confirmado": false,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 1024,
+      "wValueHex": "0x0400",
+      "wIndex": 49681,
+      "wIndexHex": "0xC211",
+      "wLength": 0,
+      "setup_packet": "40 03 00 04 11 C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0400, 0xC211, None)"
+    },
+    {
+      "pkt": 6985,
+      "funcao": "Crossfader Cut Lag",
+      "rotulo": "posicao 6",
+      "confirmado": false,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 1536,
+      "wValueHex": "0x0600",
+      "wIndex": 49681,
+      "wIndexHex": "0xC211",
+      "wLength": 0,
+      "setup_packet": "40 03 00 06 11 C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0600, 0xC211, None)"
+    },
+    {
+      "pkt": 7003,
+      "funcao": "Crossfader Cut Lag",
+      "rotulo": "posicao 5",
+      "confirmado": false,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 1280,
+      "wValueHex": "0x0500",
+      "wIndex": 49681,
+      "wIndexHex": "0xC211",
+      "wLength": 0,
+      "setup_packet": "40 03 00 05 11 C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0500, 0xC211, None)"
+    },
+    {
+      "pkt": 7033,
+      "funcao": "Crossfader Cut Lag",
+      "rotulo": "posicao 7",
+      "confirmado": false,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 1792,
+      "wValueHex": "0x0700",
+      "wIndex": 49681,
+      "wIndexHex": "0xC211",
+      "wLength": 0,
+      "setup_packet": "40 03 00 07 11 C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0700, 0xC211, None)"
+    },
+    {
+      "pkt": 7047,
+      "funcao": "Crossfader Cut Lag",
+      "rotulo": "posicao 8",
+      "confirmado": false,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 2048,
+      "wValueHex": "0x0800",
+      "wIndex": 49681,
+      "wIndexHex": "0xC211",
+      "wLength": 0,
+      "setup_packet": "40 03 00 08 11 C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0800, 0xC211, None)"
+    },
+    {
+      "pkt": 7087,
+      "funcao": "Crossfader Cut Lag",
+      "rotulo": "posicao 9",
+      "confirmado": false,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 2304,
+      "wValueHex": "0x0900",
+      "wIndex": 49681,
+      "wIndexHex": "0xC211",
+      "wLength": 0,
+      "setup_packet": "40 03 00 09 11 C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0900, 0xC211, None)"
+    },
+    {
+      "pkt": 7105,
+      "funcao": "Crossfader Cut Lag",
+      "rotulo": "posicao 10",
+      "confirmado": false,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 2560,
+      "wValueHex": "0x0A00",
+      "wIndex": 49681,
+      "wIndexHex": "0xC211",
+      "wLength": 0,
+      "setup_packet": "40 03 00 0A 11 C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0A00, 0xC211, None)"
+    },
+    {
+      "pkt": 7119,
+      "funcao": "Crossfader Cut Lag",
+      "rotulo": "posicao 6",
+      "confirmado": false,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 1536,
+      "wValueHex": "0x0600",
+      "wIndex": 49681,
+      "wIndexHex": "0xC211",
+      "wLength": 0,
+      "setup_packet": "40 03 00 06 11 C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0600, 0xC211, None)"
+    },
+    {
+      "pkt": 7141,
+      "funcao": "Crossfader Fade (curva)",
+      "rotulo": "LARGE",
+      "confirmado": true,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 768,
+      "wValueHex": "0x0300",
+      "wIndex": 49685,
+      "wIndexHex": "0xC215",
+      "wLength": 0,
+      "setup_packet": "40 03 00 03 15 C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0300, 0xC215, None)"
+    },
+    {
+      "pkt": 7155,
+      "funcao": "Crossfader Fade (curva)",
+      "rotulo": "SHARP",
+      "confirmado": true,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 0,
+      "wValueHex": "0x0000",
+      "wIndex": 49685,
+      "wIndexHex": "0xC215",
+      "wLength": 0,
+      "setup_packet": "40 03 00 00 15 C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0000, 0xC215, None)"
+    },
+    {
+      "pkt": 7169,
+      "funcao": "Crossfader Fade (curva)",
+      "rotulo": "NONE",
+      "confirmado": true,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 256,
+      "wValueHex": "0x0100",
+      "wIndex": 49685,
+      "wIndexHex": "0xC215",
+      "wLength": 0,
+      "setup_packet": "40 03 00 01 15 C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0100, 0xC215, None)"
+    },
+    {
+      "pkt": 7187,
+      "funcao": "Crossfader Fade (curva)",
+      "rotulo": "SMALL",
+      "confirmado": true,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 512,
+      "wValueHex": "0x0200",
+      "wIndex": 49685,
+      "wIndexHex": "0xC215",
+      "wLength": 0,
+      "setup_packet": "40 03 00 02 15 C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0200, 0xC215, None)"
+    },
+    {
+      "pkt": 7201,
+      "funcao": "Crossfader Fade (curva)",
+      "rotulo": "LARGE",
+      "confirmado": true,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 768,
+      "wValueHex": "0x0300",
+      "wIndex": 49685,
+      "wIndexHex": "0xC215",
+      "wLength": 0,
+      "setup_packet": "40 03 00 03 15 C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0300, 0xC215, None)"
+    },
+    {
+      "pkt": 7211,
+      "funcao": "Time Mode",
+      "rotulo": "Elapsed",
+      "confirmado": false,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 0,
+      "wValueHex": "0x0000",
+      "wIndex": 49702,
+      "wIndexHex": "0xC226",
+      "wLength": 0,
+      "setup_packet": "40 03 00 00 26 C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0000, 0xC226, None)"
+    },
+    {
+      "pkt": 7225,
+      "funcao": "Time Mode",
+      "rotulo": "Remain",
+      "confirmado": false,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 256,
+      "wValueHex": "0x0100",
+      "wIndex": 49702,
+      "wIndexHex": "0xC226",
+      "wLength": 0,
+      "setup_packet": "40 03 00 01 26 C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0100, 0xC226, None)"
+    },
+    {
+      "pkt": 7239,
+      "funcao": "Hot Cue Countdown",
+      "rotulo": "Off",
+      "confirmado": false,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 0,
+      "wValueHex": "0x0000",
+      "wIndex": 49703,
+      "wIndexHex": "0xC227",
+      "wLength": 0,
+      "setup_packet": "40 03 00 00 27 C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0000, 0xC227, None)"
+    },
+    {
+      "pkt": 7249,
+      "funcao": "Hot Cue Countdown",
+      "rotulo": "On",
+      "confirmado": false,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 256,
+      "wValueHex": "0x0100",
+      "wIndex": 49703,
+      "wIndexHex": "0xC227",
+      "wLength": 0,
+      "setup_packet": "40 03 00 01 27 C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0100, 0xC227, None)"
+    },
+    {
+      "pkt": 7265,
+      "funcao": "RPM Button Mode",
+      "rotulo": "Long Press",
+      "confirmado": false,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 256,
+      "wValueHex": "0x0100",
+      "wIndex": 49709,
+      "wIndexHex": "0xC22D",
+      "wLength": 0,
+      "setup_packet": "40 03 00 01 2D C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0100, 0xC22D, None)"
+    },
+    {
+      "pkt": 7281,
+      "funcao": "RPM Button Mode",
+      "rotulo": "Instant",
+      "confirmado": false,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 0,
+      "wValueHex": "0x0000",
+      "wIndex": 49709,
+      "wIndexHex": "0xC22D",
+      "wLength": 0,
+      "setup_packet": "40 03 00 00 2D C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0000, 0xC22D, None)"
+    },
+    {
+      "pkt": 7301,
+      "funcao": "Slow Speed Stabilizer",
+      "rotulo": "On",
+      "confirmado": false,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 256,
+      "wValueHex": "0x0100",
+      "wIndex": 49710,
+      "wIndexHex": "0xC22E",
+      "wLength": 0,
+      "setup_packet": "40 03 00 01 2E C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0100, 0xC22E, None)"
+    },
+    {
+      "pkt": 7313,
+      "funcao": "Slow Speed Stabilizer",
+      "rotulo": "Off",
+      "confirmado": false,
+      "bmRequestType": 64,
+      "bRequest": 3,
+      "wValue": 0,
+      "wValueHex": "0x0000",
+      "wIndex": 49710,
+      "wIndexHex": "0xC22E",
+      "wLength": 0,
+      "setup_packet": "40 03 00 00 2E C2 00 00",
+      "pyusb": "ctrl_transfer(0x40, 3, 0x0000, 0xC22E, None)"
+    }
+  ]
+}
